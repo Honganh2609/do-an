@@ -418,3 +418,9 @@ list-style:circle;
 .mgt-20 {
   margin-top:20px;
 }
+.mgt-10 {
+  margin-top:10px;
+}
+.bdr-8 {
+  border-radius: 8px;
+}
