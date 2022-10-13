@@ -1,0 +1,28 @@
+.thank-you {
+    padding: 20px 0;
+}
+.content-thank-you {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 24px 80px rgb(0 0 0 / 7%);
+}
+.title-thank-you {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 0;
+}
+.info-order-header {
+    display: flex;
+    justify-content: space-between;
+}
+.infor-order ul {
+    flex-direction: column;
+}
+.infor-order ul li {
+    color:#1d1d1f;
+}
