@@ -20,9 +20,26 @@
     display: flex;
     justify-content: space-between;
 }
-.infor-order ul {
-    flex-direction: column;
+.info-order {
+    background-color: #f5f5f7;
+    padding: 20px;
+    border-radius: 8px;
 }
-.infor-order ul li {
+.info-order-header h4 {
+    font-size:16px;
+}
+.info-order ul {
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: circle;
+    margin:0;
+}
+.info-order ul li {
     color:#1d1d1f;
+}
+.point-member {
+    padding: 20px;
+    background-color: #eaf2fd;
+    border-radius: 8px;
+    margin-top: 10px;
 }
