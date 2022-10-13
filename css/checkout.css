@@ -1,0 +1,92 @@
+.wd100 {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #EBEBEB;
+}
+.form-thanh-toan,.cong-thanh-toan {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.thong-tin-sp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.anh-sp {
+    width: 90px;
+    height: 90px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+}
+.total span {
+    font-weight: 700;
+}
+.hinh-thuc-thanh-toan ul {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin:0;
+}
+.hinh-thuc-thanh-toan label {
+    color:#1d1d1f;
+    font-size:14px;
+}
+.hinh-thuc-thanh-toan ul li {
+    padding-top:10px;
+}
+input.dong-y {
+    margin-right: 8px;
+}
+.dieu-kien {
+    align-items: baseline;
+}
+.dieu-kien span {
+    font-size:14px;
+}
+button#place_order {
+    width: 100%;
+    background-color: #06c;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: 0px;
+}
+.btn-thanh-toan {
+    padding: 20px 0;
+}
+@media (max-width: 1024px) {
+    .hinh-thuc-thanh-toan label {
+        color:#1d1d1f;
+        font-size:12px;
+    }
+    .dieu-kien span {
+        font-size:12px;
+    }
+    .ma-giam-gia span {
+        color:#06c;
+        font-size: 14px;
+    }
+    .checkout {
+        padding:20px 0px
+    }
+}
+.svg.bi.bi-gift {
+    color: #06c;
+    margin-right: 8px;
+}
+.ma-giam-gia {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.ma-giam-gia span {
+    color:#06c;
+    font-size: 14px;
+}
+.checkout {
+    padding:40px 0px
+}
