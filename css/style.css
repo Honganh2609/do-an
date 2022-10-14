@@ -270,7 +270,7 @@ padding: 20px 0;
 }
 footer a {
   display: block;
-  color:#fff;
+  color:#fff !important;
 }
 footer span {
   display: block;
