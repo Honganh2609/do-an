@@ -59,7 +59,13 @@ button#place_order {
     border: 0px;
 }
 .btn-thanh-toan {
-    padding: 20px 0;
+    padding: 10px 0;
+    background-color: #06c;
+    border-radius: 8px;
+    text-align: center;
+}
+.btn-thanh-toan a {
+    color:#fff;
 }
 @media (max-width: 1024px) {
     .hinh-thuc-thanh-toan label {
@@ -84,7 +90,7 @@ svg.bi.bi-gift {
 .ma-giam-gia {
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 .ma-giam-gia span {
     color:#06c;
