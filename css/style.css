@@ -4,6 +4,8 @@
 }
 body {
     background-color: #f5f5f7;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .menu a {
     text-decoration: none;
@@ -423,4 +425,13 @@ list-style:circle;
 }
 .bdr-8 {
   border-radius: 8px;
+}
+svg.bi.bi-tiktok {
+  color: #fff;
+}
+svg.bi.bi-youtube {
+  color: red;
+}
+svg.bi.bi-facebook {
+  color: #fff;
 }
